@@ -1,0 +1,26 @@
+{
+  "name": "js-restaurant",
+  "version": "1.0.0",
+  "description": "This project consist of dynamically rendering a simple restaurant homepage.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresFMoya/JS-Restaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresFMoya/JS-Restaurant/issues"
+  },
+  "homepage": "https://github.com/AndresFMoya/JS-Restaurant#readme",
+  "keywords": [],
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  }
+}
