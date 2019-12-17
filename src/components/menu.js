@@ -2,7 +2,7 @@ function renderMenu() {
   const content = document.getElementById('content');
   const menu = document.createElement('menu');
   menu.innerHTML = `
-<section id="menu-list" class="section-padding">
+<section id="menu-list" class="section-padding col-sm-9 pr-3">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center marb-35">

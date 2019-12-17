@@ -2,21 +2,20 @@ function renderAbout() {
   const content = document.getElementById('content');
   const about = document.createElement('about');
   about.innerHTML = `
-<section id="about" class="section-padding">
+<section id="about" class="section-padding col-sm-9">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-center marb-35">
+        <div class="col-md-12 text-center">
           <h1 class="header-h">Delicious Journey</h1>
           <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
             <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
+        <div class="col-md-12">
           <div class="col-md-6 col-sm-6">
             <div class="about-info">
               <h2 class="heading">vel illum qui dolorem eum</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit inventore culpa vero accusamus in nostrum dignissimos modi, molestiae. Autem iusto esse necessitatibus ex corporis earum quaerat voluptates quibusdam dicta!</p>
-              <div class="details-list">
+              <div class="details-list align-content-center">
                 <ul>
                   <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
                   <li><i class="fa fa-check"></i>Quisque finibus eu lorem quis elementum</li>
@@ -27,7 +26,6 @@ function renderAbout() {
             </div>
           </div>
         </div>
-        <div class="col-md-1"></div>
       </div>
     </div>
   </section>

@@ -2,8 +2,8 @@ function renderContact() {
   const content = document.getElementById('content');
   const contact = document.createElement('contact');
   contact.innerHTML = `
-<section id="contact" class="section-padding">
-    <div class="container">
+<section id="contact" class="section-padding col-sm-9">
+    <div class="container"> 
       <div class="row">
         <div class="col-md-12 text-center">
           <h1 class="header-h">Book Your table</h1>
