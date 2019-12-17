@@ -1,6 +1,6 @@
 function renderHeader() {
   const content = document.getElementById('content');
-  const navBar = document.createElement('navBar')
+  const navBar = document.createElement('navBar');
   const header = document.createElement('header');
   header.innerHTML = `
  <section id="banner" class="col-sm-9">
@@ -23,7 +23,7 @@ function renderHeader() {
         <a href="#menu-list">Menu</a>
         <a href="#contact">Contact</a>
       </div>
-  `
+  `;
   content.appendChild(header);
   document.body.appendChild(navBar);
 }

@@ -5,11 +5,10 @@ import renderMenu from './components/menu';
 import renderContact from './components/contact';
 
 function init() {
-  console.log("Hello");
   renderHeader();
   renderAbout();
   renderMenu();
-  renderContact()
+  renderContact();
 }
 
 init();
