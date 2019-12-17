@@ -26,6 +26,6 @@ function renderHeader() {
   `
   content.appendChild(header);
   document.body.appendChild(navBar);
-};
+}
 
 export default renderHeader;

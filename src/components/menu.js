@@ -127,6 +127,6 @@ function renderMenu() {
   </section>
 `;
   content.appendChild(menu);
-};
+}
 
 export default renderMenu;

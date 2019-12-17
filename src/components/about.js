@@ -31,6 +31,6 @@ function renderAbout() {
   </section>
   `;
   content.appendChild(about);
-};
+}
 
 export default renderAbout;

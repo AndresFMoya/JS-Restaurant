@@ -95,6 +95,6 @@ function renderContact() {
   </section>
 `;
   content.appendChild(contact);
-};
+}
 
 export default renderContact;
