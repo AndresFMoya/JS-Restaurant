@@ -3,18 +3,17 @@ function renderHeader() {
   const header = document.createElement('header');
   header.innerHTML = `
     <section id="banner">
-    <div class="bg-color">
+    <div class="">
       <header id="header">
         <div class="container">
           <div id="mySidenav" class="sidenav">
             <a href="#about">About</a>
-            <a href="#event">Event</a>
             <a href="#menu-list">Menu</a>
-            <a href="#contact">Book a table</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
       </header>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="inner text-center">
             <h1 class="logo-name">Delicious</h1>
@@ -26,7 +25,7 @@ function renderHeader() {
     </div>
   </section>
   `;
-  content.appendChild(header)
+  content.appendChild(header);
 };
 
 export default renderHeader;

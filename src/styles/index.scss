@@ -75,7 +75,6 @@ table {
 
 .sidenav {
   height: 100%;
-  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -86,7 +85,7 @@ table {
   transition: 0.5s;
 
   a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 32px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
