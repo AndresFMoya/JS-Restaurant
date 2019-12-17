@@ -19,12 +19,15 @@
   "homepage": "https://github.com/AndresFMoya/JS-Restaurant#readme",
   "keywords": [],
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "lodash": "^4.17.15",
-    "webpack": "^4.41.3",
     "webpack-cli": "^3.3.10"
   },
   "devDependencies": {
     "css-loader": "^3.4.0",
-    "style-loader": "^1.0.2"
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.2",
+    "webpack": "^4.41.3"
   }
 }

@@ -1,5 +1,4 @@
-import 'bootstrap';
-import './scss/style.scss';
+import './styles/index.scss';
 import renderHeader from './components/header'
 
 function init() {
