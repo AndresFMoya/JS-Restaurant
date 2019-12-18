@@ -7,27 +7,23 @@ import renderMenu from './components/menu';
 import renderContact from './components/contact';
 
 function clear() {
-  document.getElementById('content').innerHTML='';
+  document.getElementById('content').innerHTML = '';
 }
 
 function init() {
   renderHeader();
 
-  const about_link =   document.getElementById("about-link");
-  about_link.addEventListener("click", clear);
-  about_link.addEventListener("click", renderAbout);
+  const aboutLink = document.getElementById('about-link');
+  aboutLink.addEventListener('click', clear);
+  aboutLink.addEventListener('click', renderAbout);
 
-  const menu_link =   document.getElementById("menu-link");
-  menu_link.addEventListener("click", clear);
-  menu_link.addEventListener("click", renderMenu)
+  const menuLink = document.getElementById('menu-link');
+  menuLink.addEventListener('click', clear);
+  menuLink.addEventListener('click', renderMenu);
 
-  const contact_link =   document.getElementById("contact-link");
-  contact_link.addEventListener("click", clear);
-  contact_link.addEventListener("click", renderContact);
+  const contactLink = document.getElementById('contact-link');
+  contactLink.addEventListener('click', clear);
+  contactLink.addEventListener('click', renderContact);
 }
 
 init();
-
-
-
-

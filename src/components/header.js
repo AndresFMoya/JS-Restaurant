@@ -1,6 +1,5 @@
 
 function renderHeader() {
-
   const content = document.getElementById('content');
   const navBar = document.createElement('navBar');
   const header = document.createElement('header');
