@@ -10,12 +10,15 @@ function renderAbout() {
           <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
             <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
         </div>
-        <div class="col-md-12">
-          <div class="col-md-6 col-sm-6">
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="col-md-5 col-sm-5">
             <div class="about-info">
               <h2 class="heading">vel illum qui dolorem eum</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit inventore culpa vero accusamus in nostrum dignissimos modi, molestiae. Autem iusto esse necessitatibus ex corporis earum quaerat voluptates quibusdam dicta!</p>
-              <div class="details-list align-content-center">
+              <div class="details-list">
                 <ul>
                   <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
                   <li><i class="fa fa-check"></i>Quisque finibus eu lorem quis elementum</li>
@@ -23,9 +26,14 @@ function renderAbout() {
                   <li><i class="fa fa-check"></i>Curabitur at massa id tortor fermentum luctus</li>
                 </ul>
               </div>
+           </div>
             </div>
-          </div>
+            <div class="col-sm-5">
+              <img src="./public/res01.jpg" alt="" class="img-thumbnail">
+            </div>
         </div>
+        </div>
+        <div class="col-md-1"></div>
       </div>
     </div>
   </section>
