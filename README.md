@@ -1,17 +1,47 @@
-# README
-# JS-Restaurant
+## Javascript | Restaurant
+This project consists of building a dynamically rendered restaurant homepage.
 
-# Project: Javascript | Restaurant
-This project consist of dynamically rendering a simple restaurant homepage.
+## Technologies used
 
-### Technology
+- HTML
+- CSS
+- SASS
+- Bootstrap
+- JavaScript
+- Webpack
+- ESlint
+- Stickler
+- GitHub
 
-HTML, CSS, SASS, Bootstrap, JavaScript, Webpack, ESlint, Stickler-ci, GitHub.
+## 🤝 Contributing
 
-### Authors
+Contributions, issues and feature requests are welcome! Feel free to check [issues page](https://github.com/AndresFMoya/JS-Restaurant/issues).
 
-- **Andres Moya** - [@AndresFMoya](https://github.com/AndresFMoya)
+1. Fork it (https://github.com/AndresFMoya/JS-Restaurant/fork)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
+4. Push to the branch (git push origin [chosen-name])
+5. Create a new pull request
 
-### Links
 
-- **Assignment page** - [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
+## Contributors
+
+- Andres Felipe Moya https://github.com/AndresFMoya
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## License
+
+This project is [MIT](https://github.com/AndresFMoya/JS-Restaurant/blob/develop/LICENSE) licensed.
+
+
+## Contact
+- **Andrés Moya** - [@andresfmoya](https://github.com/andresfmoya) I will love to hear about you at one of the following places! :heart:
+
+- [LinkedIn](https://www.linkedin.com/in/andres-f-moya/)
+- [Twitter](https://www.twitter.com/andmedev/) 
+- <andresfmoya@gmail.com>.
+- <https://andresmoya.me>
