@@ -13,6 +13,8 @@ This project consists of building a dynamically rendered restaurant homepage.
 - Stickler
 - GitHub
 
+## [Live Version](https://react-bookstore-001.herokuapp.com)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome! Feel free to check [issues page](https://github.com/AndresFMoya/JS-Restaurant/issues).
